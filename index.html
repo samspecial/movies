@@ -18,7 +18,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <section class="container">
-      <a class="navbar-brand" href="#">IMBD</a>
+      <a class="navbar-brand btn btn-warning" href="#">IMBD</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,6 +28,12 @@
           <li class="nav-item active">
             <a class="nav-link" href="index.html">&#9776; Menu
               <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">IMDb
+              <span class="pink">TV</span>
+
             </a>
           </li>
           <li class="nav-item dropdown">
@@ -42,20 +48,16 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
-          <div class="col-sm-6 my-1">
-            <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
-            <div class="input-group">
-
-              <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
-            </div>
-          </div>
 
         </ul>
 
       </div>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-md-2" type="search" placeholder="Search" aria-label="Search">
+      </form>
       <div>
-        <button class="btn btn-default" id="previous">Previous</button>
-        <button class="btn btn-default" id="next">Next</button>
+        <button class="btn btn-default" id="previous">IMDb Pro</button>
+        <button class="btn btn-default" id="next">Wishlist</button>
         <a href="#" class="btn btn-default">Sign in</a>
       </div>
     </section>
