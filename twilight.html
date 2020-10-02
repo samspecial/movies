@@ -84,21 +84,26 @@
     <div class="col-md-4"></div>
     <div id="sign-in">
       <div class="form-wrap">
+        <a href="index.html" title="Close">&times;</a>
         <h3 class="text-center mb-4">Welcome Back</h3>
-        <form action="">
+        <form id="form">
           <div class="form-row form-group">
             <div class="col-md-12">
-              <input type="username" class="form-control" placeholder="Username">
+              <input id="userName" type="username" class="form-control" placeholder="Username">
             </div>
           </div>
           <div class="form-row form-group">
             <div class="col-md-12">
-              <input type="text" class="form-control" placeholder="Credit Card" pattern="[0-9]{16}">
+              <input id="creditCard" type="text" class="form-control" placeholder="Credit Card" pattern="[0-9]{16}">
             </div>
           </div>
+          <span>
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-visa"></i>
+          </span>
           <div class="form-row form-group">
             <div class="col-md-12">
-              <button type="submit" class="form-control btn btn-danger btn-block">Submit</button>
+              <button id="button" type="submit" class="form-control btn btn-danger btn-block">Submit</button>
             </div>
           </div>
         </form>
