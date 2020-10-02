@@ -98,6 +98,9 @@ margin-top:15px;
   margin:0;
 }
 
+.headings{
+  text-transform:uppercase;
+}
 
 .img-container{
   position:relative;
