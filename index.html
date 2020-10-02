@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="IMBD Movies">
+  <meta name="description" content="IMBD is a home to latest, intriging, HD and award winning movies">
+  <meta name="keywords" content="IMBD, latest, award, winning, movies, cinema, nollywood, hollywood, bollywood, fiction, drama, family, thriller, sci-fi">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home | Movies Hub</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome-all.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <section class="container">
+      <a class="navbar-brand" href="#">IMBD</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">&#9776; Menu
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              All
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <div class="col-sm-6 my-1">
+            <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
+            <div class="input-group">
+
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+            </div>
+          </div>
+
+        </ul>
+
+      </div>
+      <div>
+        <button class="btn btn-default" id="previous">Previous</button>
+        <button class="btn btn-default" id="next">Next</button>
+        <a href="#" class="btn btn-default">Sign in</a>
+      </div>
+    </section>
+  </nav>
+  <section class="main">
+    <section class="jumbotron j-hero">
+      <h1>IMDb
+        <span class="pink">TV</span>
+      </h1>
+      <h3>Always Entertaining.</h3>
+      <h3>Always Free.</h3>
+      <p>Free on IMDb and Fire TV devices</p>
+
+    </section>
+    <p>By viewing content on IMDb TV, you agree to the IMDb Conditions of Use. </p>
+
+    <section>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3 col-sm-6 reset">
+                  <div class="img-container" onclick="movieDetails(event,'twilight.html');">
+                    <img src="images/asset 0.jpeg" class="img-fluid" alt="Responsive image">
+                    <div class="text-content">
+                      <p>
+                        <i class="fa fa-star"></i> 5.6/10</p>
+                      <p>2h 28min | 2008 | Drama, Fantasy, Romance</p>
+                      <p>Bella Shaun moves to Forks and encounters Edward Cullens, a gorgeous boy and...</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 reset">
+                  <div>
+                    <img src="images/asset 1.jpeg" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 reset">
+                  <div>
+                    <img src="images/asset 2.jpeg" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 reset">
+                  <div>
+                    <img src="images/asset 3.jpeg" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3 col-sm-6 reset">
+                  <div>
+                    <img src="images/asset 4.jpeg" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 reset">
+                  <div>
+                    <img src="images/asset 5.jpeg" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 reset">
+                  <div>
+                    <img src="images/asset 6.jpeg" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 reset">
+                  <div>
+                    <img src="images/asset 7.jpeg" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3 col-sm-6 reset">
+                  <div>
+                    <img src="images/asset 8.jpeg" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 reset">
+                  <div>
+                    <img src="images/asset 9.jpeg" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 reset">
+                  <div>
+                    <img src="images/asset 10.jpeg" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 reset">
+                  <div>
+                    <img src="images/asset 11.jpeg" class="img-fluid" alt="Responsive image">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <div id="sign-in">
+      <div class="form-wrap">
+        <h3 class="text-center mb-4">Welcome Back</h3>
+        <form action="">
+          <div class="form-row form-group">
+            <div class="col-md-12">
+              <input type="username" class="form-control" placeholder="Username">
+            </div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-md-12">
+              <input type="text" class="form-control" placeholder="Credit Card" pattern="[0-9]{16}">
+            </div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-md-12">
+              <button type="submit" class="form-control btn btn-danger btn-block">Submit</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+    <footer class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 col-sm-12">
+          <h3>Do you have questions about IMDb TV?</h3>
+          <a href="#" class="btn btn-warning">Learn More</a>
+
+          <div class="icons">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitch"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </footer>
+  </section>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="IMBD Movies">
+  <meta name="description" content="IMBD is a home to latest, intriging, HD and award winning movies">
+  <meta name="keywords" content="IMBD, latest, award, winning, movies, cinema, nollywood, hollywood, bollywood, fiction, drama, family, thriller, sci-fi">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Home | Movies Hub</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome-all.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <section class="container">
+      <a class="navbar-brand" href="#">IMBD</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">&#9776; Menu
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <div class="col-sm-3 my-1">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+            <label class="sr-only" for="inlineFormInputGroupUsername">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+              </div>
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+            </div>
+          </div>
+          <li class="nav-item">
+            <a class="nav-link" href="apply.html">Apply</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="todo.html">Todo App</a>
+          </li>
+        </ul>
+
+      </div>
+      <div>
+        <button class="btn btn-primary" id="previous">Previous</button>
+        <button class="btn btn-primary" id="next">Next</button>
+      </div>
+    </section>
+  </nav>
+  <section class="main">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 col-sm-12">
+          <div class="card">
+            <img src="images/asset 0.jpeg" alt="Twilight" class="img-fluid">
+            <div class="card-body">
+              <h3 class="card-title">Twilight</h3>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi porro consequuntur non fugiat blanditiis?
+                Iure officiis porro quidem pariatur voluptates harum quis, cupiditate nisi quia eveniet, natus, illo quaerat.
+                Saepe?
+              </p>
+              <button class="btn btn-danger" onclick="watchNow(event, '#sign-in');">Watch Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+    <div id="sign-in">
+      <div class="form-wrap">
+        <h3 class="text-center mb-4">Welcome Back</h3>
+        <form action="">
+          <div class="form-row form-group">
+            <div class="col-md-12">
+              <input type="username" class="form-control" placeholder="Username">
+            </div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-md-12">
+              <input type="text" class="form-control" placeholder="Credit Card" pattern="[0-9]{16}">
+            </div>
+          </div>
+          <div class="form-row form-group">
+            <div class="col-md-12">
+              <button type="submit" class="form-control btn btn-danger btn-block">Submit</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
