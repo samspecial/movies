@@ -1,7 +1,7 @@
 
 function movieDetails(e, url) {
   e.preventDefault();
-  window.open(url, "_blank", "width=300px, height=500px");
+  window.open(url, "_blank", "width=400px, height=500px");
 }
 
 let prev = document.getElementById("previous");
